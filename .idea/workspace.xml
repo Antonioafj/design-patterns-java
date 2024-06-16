@@ -5,27 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b80d021-70bb-4ba4-acbb-6f4937e07b4b" name="Changes" comment="prototype e proxy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/prototype/Botao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/prototype/TipoBordaEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/prototype/problema/BotaVermelho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/prototype/problema/BotaoAmarelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/prototype/problema/BotaoAzul.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/prototype/solucao/BotaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/prototype/solucao/BotaoRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/prototype/solucao/TesteBotaoPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/proxy/PessoaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/proxy/PessoaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/proxy/problema/PessoaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/proxy/solucao/NovoPessoaRepositoryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/proxy/solucao/PessoaRepositoryProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/proxy/solucao/ProxyPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/proxy/solucao/TestePessoaComProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/singleton/problema/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/singleton/problema/TesteAgenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/singleton/solucao/AgendaSingletonEAGER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/singleton/solucao/AgendaSingletonENUM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/singleton/solucao/AgendaSingletonLAZY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/singleton/solucao/TesteAgendaSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/problema/ClienJarOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/problema/JarOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/solucao/ClientJarOperacoesContaCorrenteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/solucao/JarOperacoesContaCorrenteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/solucao/TesteOperacoesContaCorrenteAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/TipoContratacaoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/problema/ReajusteAnualSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/problema/TesteAjusteSalarioSemStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCLT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCooperativa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioEstagio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioPJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/ReajusteAnualSalarioComStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/TesteAjusteSalarioComStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,8 +57,12 @@
     "Application.PessoaTest.executor": "Run",
     "Application.TesteAgenda.executor": "Run",
     "Application.TesteAgendaSingleton.executor": "Run",
+    "Application.TesteAjusteSalarioComStrategy.executor": "Run",
+    "Application.TesteAjusteSalarioSemStrategy.executor": "Run",
     "Application.TesteAnimal.executor": "Run",
     "Application.TesteBotaoPrototype.executor": "Run",
+    "Application.TesteOperacoesContaCorrente.executor": "Run",
+    "Application.TesteOperacoesContaCorrenteAdapter.executor": "Run",
     "Application.TestePessoa.executor": "Run",
     "Application.TestePessoaComBuilder.executor": "Run",
     "Application.TestePessoaComProxy.executor": "Run",
@@ -81,17 +82,18 @@
       <recent name="br.com.ada.designpattern.prototype.solucao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ada.designpattern.strategy.solucao" />
       <recent name="br.com.ada.designpattern.proxy.solucao" />
       <recent name="br.com.ada.designpattern.singleton.solucao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestePessoaComProxy">
-    <configuration name="PessoaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.proxy.problema.PessoaTest" />
+  <component name="RunManager" selected="Application.TesteAjusteSalarioComStrategy">
+    <configuration name="TesteAjusteSalarioComStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.strategy.solucao.TesteAjusteSalarioComStrategy" />
       <module name="design-patterns-jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.designpattern.proxy.problema.*" />
+          <option name="PATTERN" value="br.com.ada.designpattern.strategy.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAgenda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.singleton.problema.TesteAgenda" />
+    <configuration name="TesteAjusteSalarioSemStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.strategy.problema.TesteAjusteSalarioSemStrategy" />
       <module name="design-patterns-jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.designpattern.singleton.problema.*" />
+          <option name="PATTERN" value="br.com.ada.designpattern.strategy.problema.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteAgendaSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.singleton.solucao.TesteAgendaSingleton" />
+    <configuration name="TesteOperacoesContaCorrente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.adapter.problema.TesteOperacoesContaCorrente" />
       <module name="design-patterns-jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.designpattern.singleton.solucao.*" />
+          <option name="PATTERN" value="br.com.ada.designpattern.adapter.problema.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteBotaoPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.prototype.solucao.TesteBotaoPrototype" />
+    <configuration name="TesteOperacoesContaCorrenteAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.adapter.solucao.TesteOperacoesContaCorrenteAdapter" />
       <module name="design-patterns-jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.designpattern.prototype.solucao.*" />
+          <option name="PATTERN" value="br.com.ada.designpattern.adapter.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteAjusteSalarioComStrategy" />
+        <item itemvalue="Application.TesteAjusteSalarioSemStrategy" />
+        <item itemvalue="Application.TesteOperacoesContaCorrenteAdapter" />
+        <item itemvalue="Application.TesteOperacoesContaCorrente" />
         <item itemvalue="Application.TestePessoaComProxy" />
-        <item itemvalue="Application.PessoaTest" />
-        <item itemvalue="Application.TesteBotaoPrototype" />
-        <item itemvalue="Application.TesteAgendaSingleton" />
-        <item itemvalue="Application.TesteAgenda" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718423056524</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prototype e proxy">
+      <option name="closed" value="true" />
+      <created>1718491099483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718491099483</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
