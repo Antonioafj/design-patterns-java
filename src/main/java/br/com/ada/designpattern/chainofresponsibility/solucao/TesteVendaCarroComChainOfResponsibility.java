@@ -27,7 +27,7 @@ public class TesteVendaCarroComChainOfResponsibility {
 
         BigDecimal valorVenda2 = vendaCarroService.calculaValorVenda(carro2);
         System.out.println("Valor da venda Uno: " + carro2.getPreco());
-        System.out.println("Valor da venda Uno com desconto: " + valorVenda2);
+        System.out.println("Valor da venda Uno e com desconto: " + valorVenda2);
 
         Carro carro3 = new Carro();
         carro3.setMarca(Marca.CHEVROLET);
