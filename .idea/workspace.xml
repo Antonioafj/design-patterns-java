@@ -4,24 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b80d021-70bb-4ba4-acbb-6f4937e07b4b" name="Changes" comment="prototype e proxy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/problema/ClienJarOperacoesContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/problema/JarOperacoesContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/problema/TesteOperacoesContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/solucao/ClientJarOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/solucao/JarOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/adapter/solucao/TesteOperacoesContaCorrenteAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/TipoContratacaoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/problema/ReajusteAnualSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/problema/TesteAjusteSalarioSemStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCLT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioCooperativa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioEstagio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/CalculadorReajusteAnualSalarioPJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/ReajusteAnualSalarioComStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/strategy/solucao/TesteAjusteSalarioComStrategy.java" afterDir="false" />
+    <list default="true" id="4b80d021-70bb-4ba4-acbb-6f4937e07b4b" name="Changes" comment="strategy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/Marca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/problema/TesteVendaCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/problema/VendaCarroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/solucao/DescontoCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/solucao/DescontoCarroFIAT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/solucao/DescontoCarroFORD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/solucao/DescontoCarroValorMaiorQueCemMil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/solucao/SemDireitoADesconto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/solucao/TesteVendaCarroComChainOfResponsibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ada/designpattern/chainofresponsibility/solucao/VendaCarroServiceComChainOfResponsibility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -67,6 +61,8 @@
     "Application.TestePessoaComBuilder.executor": "Run",
     "Application.TestePessoaComProxy.executor": "Run",
     "Application.TesteProdutoComFactoryMethod.executor": "Run",
+    "Application.TesteVendaCarro.executor": "Run",
+    "Application.TesteVendaCarroComChainOfResponsibility.executor": "Run",
     "Maven.design-patterns-jav [clean].executor": "Run",
     "Maven.design-patterns-jav [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -82,12 +78,13 @@
       <recent name="br.com.ada.designpattern.prototype.solucao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ada.designpattern.chainofresponsibility.solucao" />
       <recent name="br.com.ada.designpattern.strategy.solucao" />
       <recent name="br.com.ada.designpattern.proxy.solucao" />
       <recent name="br.com.ada.designpattern.singleton.solucao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteAjusteSalarioComStrategy">
+  <component name="RunManager" selected="Application.TesteVendaCarroComChainOfResponsibility">
     <configuration name="TesteAjusteSalarioComStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.strategy.solucao.TesteAjusteSalarioComStrategy" />
       <module name="design-patterns-jav" />
@@ -114,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteOperacoesContaCorrente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.adapter.problema.TesteOperacoesContaCorrente" />
-      <module name="design-patterns-jav" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.ada.designpattern.adapter.problema.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TesteOperacoesContaCorrenteAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.adapter.solucao.TesteOperacoesContaCorrenteAdapter" />
       <module name="design-patterns-jav" />
@@ -140,12 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestePessoaComProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.proxy.solucao.TestePessoaComProxy" />
+    <configuration name="TesteVendaCarro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.chainofresponsibility.problema.TesteVendaCarro" />
       <module name="design-patterns-jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.designpattern.proxy.solucao.*" />
+          <option name="PATTERN" value="br.com.ada.designpattern.chainofresponsibility.problema.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteVendaCarroComChainOfResponsibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.designpattern.chainofresponsibility.solucao.TesteVendaCarroComChainOfResponsibility" />
+      <module name="design-patterns-jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ada.designpattern.chainofresponsibility.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteVendaCarroComChainOfResponsibility" />
+        <item itemvalue="Application.TesteVendaCarro" />
         <item itemvalue="Application.TesteAjusteSalarioComStrategy" />
         <item itemvalue="Application.TesteAjusteSalarioSemStrategy" />
         <item itemvalue="Application.TesteOperacoesContaCorrenteAdapter" />
-        <item itemvalue="Application.TesteOperacoesContaCorrente" />
-        <item itemvalue="Application.TestePessoaComProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718491099483</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="strategy">
+      <option name="closed" value="true" />
+      <created>1718509646530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718509646530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +225,7 @@
     <MESSAGE value="criacao builder" />
     <MESSAGE value="criacao factory method" />
     <MESSAGE value="prototype e proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="prototype e proxy" />
+    <MESSAGE value="strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="strategy" />
   </component>
 </project>
